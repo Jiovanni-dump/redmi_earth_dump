@@ -1,0 +1,10 @@
+# C3T-T code for HQ-273166 by baiyixin at 20230210 start
+service board_id /vendor/bin/boardId_bin
+    class main
+    user root
+    oneshot
+    disabled
+
+on init
+    start board_id
+# C3T-T code for HQ-273166 by baiyixin at 20230210 end
