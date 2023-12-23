@@ -1,0 +1,14 @@
+# missi_phone_global-user 13 TP1A.220624.014 V14.0.4.0.TCVMIXM release-keys
+- manufacturer: xiaomi
+- platform: mt6768
+- codename: earth
+- flavor: missi_phone_global-user
+- release: 13
+- id: TP1A.220624.014
+- incremental: V14.0.4.0.TCVMIXM
+- tags: release-keys
+- fingerprint: Redmi/vnd_earth/earth:12/TP1A.220624.014/V14.0.4.0.TCVMIXM:user/release-keys
+- is_ab: true
+- brand: Redmi
+- branch: missi_phone_global-user-13-TP1A.220624.014-V14.0.4.0.TCVMIXM-release-keys
+- repo: redmi_earth_dump
