@@ -1,0 +1,22 @@
+[
+	{
+		"packageName":"cn.wps.xiaomi.abroad.lite",
+		"versionCode":264
+	},
+	{
+		"packageName":"com.miui.calculator",
+		"versionCode":201203677
+	},
+	{
+		"packageName":"com.miui.mediaeditor",
+		"versionCode":4327553
+	},
+	{
+		"packageName":"com.miui.notes",
+		"versionCode":525
+	},
+	{
+		"packageName":"com.xiaomi.midrop",
+		"versionCode":33600
+	}
+]

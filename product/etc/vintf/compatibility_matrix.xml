@@ -1,0 +1,38 @@
+<!--
+    Input:
+        capacitance_matrix.xml
+-->
+<compatibility-matrix version="5.0" type="framework">
+    <hal format="hidl" optional="true">
+        <name>com.fingerprints.extension</name>
+        <version>1.0</version>
+        <interface>
+            <name>IFingerprintEngineering</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IFingerprintNavigation</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IFingerprintSensorTest</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.fpsensor.hardware.fpsensorhidlsvc</name>
+        <version>2.0</version>
+        <interface>
+            <name>IFpsensorHidlSvc</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.silead.hardware.fingerprintext</name>
+        <version>1.0</version>
+        <interface>
+            <name>ISileadFingerprint</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</compatibility-matrix>
