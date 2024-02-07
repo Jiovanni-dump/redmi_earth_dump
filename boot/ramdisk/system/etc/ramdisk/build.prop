@@ -1,0 +1,23 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.bootimage.brand=Redmi
+ro.product.bootimage.device=earth
+ro.product.bootimage.manufacturer=Xiaomi
+ro.product.bootimage.model=22120RN86C
+ro.product.bootimage.name=vnd_earth
+ro.bootimage.build.date=Thu Dec 21 12:43:36 UTC 2023
+ro.bootimage.build.date.utc=1703162616
+ro.bootimage.build.fingerprint=Redmi/vnd_earth/earth:12/UP1A.231005.007/V816.0.2.0.UCVMIXM:user/release-keys
+ro.bootimage.build.id=UP1A.231005.007
+ro.bootimage.build.tags=release-keys
+ro.bootimage.build.type=user
+ro.bootimage.build.version.incremental=V816.0.2.0.UCVMIXM
+ro.bootimage.build.version.release=12
+ro.bootimage.build.version.release_or_codename=12
+ro.bootimage.build.version.sdk=31
+# Auto-added by post_process_props.py
+persist.sys.usb.config=none
+# end of file
+
