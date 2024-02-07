@@ -1,0 +1,21 @@
+# C3T-T code for HQ-272322 by xiaqiangdan at 2022.12.27 start
+service hqreadsvc /vendor/bin/hqread_vndr atcmd
+    class main
+    user root
+    disabled
+    oneshot
+    group root system everybody
+
+on property:sys.hqread.trigger=1
+    start hqreadsvc
+
+on property:sys.sarcali.trigger=1
+    start sarcalisvc
+
+service sarcalisvc /vendor/bin/nusensors -w calibration -t s
+    class main
+    user root
+    disabled
+    oneshot
+    group root system
+# C3T-T code for HQ-272322 by xiaqiangdan at 2022.12.27 end
